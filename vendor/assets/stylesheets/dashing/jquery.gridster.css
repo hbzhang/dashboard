@@ -2,7 +2,6 @@
 * http://gridster.net/
 * Copyright (c) 2012 ducksboard; Licensed MIT */
 
-/*
 .gridster {
     position:relative;
 }
@@ -50,7 +49,7 @@
     -moz-transition: all 0s !important;
     -o-transition: all 0s !important;
     transition: all 0s !important;
-}*/
+}
 
 /* Uncomment this if you set helper : "clone" in draggable options */
 /*.gridster .player {
