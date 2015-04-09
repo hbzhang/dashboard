@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-/*$background-color: #222;
+$background-color: #222;
 $text-color: #fff;
 
 $background-warning-color-1: #e82711;
@@ -27,25 +27,12 @@ $text-danger-color: #fff;
   -moz-animation:     $animation-name $duration $function #{$animation-iteration-count};
   -ms-animation:      $animation-name $duration $function #{$animation-iteration-count};
 }
-*/
+
 
 // ----------------------------------------------------------------------------
 // Base styles
 // ----------------------------------------------------------------------------
-/*html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
 
-body {
-  margin: 0;
-  background-color: $background-color;
-  font-size: 20px;
-  color: $text-color;
-  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-*/
 b, strong {
   font-weight: bold;
 }
@@ -239,10 +226,6 @@ h3 {
     width:100%;
     background: #000;
     display: none;
-}
-
-#container {
-  padding-top: 5px;
 }
 
 
