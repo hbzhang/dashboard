@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'dashing/version'
 
 Gem::Specification.new do |spec|
-  spec.name         = 'dashing-rails'
+  spec.name         = 'dashboard'
   spec.version      = Dashing::VERSION
   spec.authors      = ['Pierre-Louis Gottfrois']
   spec.email        = ['pierrelouis.gottfrois@gmail.com']
