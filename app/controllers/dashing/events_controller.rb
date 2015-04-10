@@ -9,6 +9,7 @@ module Dashing
       @redis = Dashing.redis
       @redis.psubscribe("#{Dashing.config.redis_namespace}.*") do |on|
         on.pmessage do |pattern, event, data|
+          logger.info "data: #{data}\n\n"
           response.stream.write("data: #{data}\n\n")
         end
       end
