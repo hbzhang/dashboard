@@ -13,6 +13,7 @@ module Dashing
           response.stream.write("data: #{data}\n\n")
         end
       end
+      @redis.flushall
       @redis.shutdown { |conn| conn.close }
     rescue IOError
       logger.info "[Dashing][#{Time.now.utc.to_s}] Stream closed"
